@@ -20,5 +20,4 @@ ds = (
 )
 ds
 
-result = ds.max(0)
-print(result)
+result = ds[0].max().values
